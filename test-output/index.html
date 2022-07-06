@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-FullUITestSuite">
+              <span class="suite-name border-failed">FullUITestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-FullUITestSuite">
+                    <span>C:\Users\dhery\IdeaProjects\advanced-selenium-webdriver\PART 6\selenium-advanced\src\test\resources\TestSuites\FullUITestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-FullUITestSuite">
+                    <span class="test-stats">12 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-FullUITestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-FullUITestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-FullUITestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-FullUITestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-FullUITestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 2 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-FullUITestSuite" class="hide-methods failed suite-FullUITestSuite"> (hide)</a> <!-- hide-methods failed suite-FullUITestSuite -->
+                      <a href="#" panel-name="suite-FullUITestSuite" class="show-methods failed suite-FullUITestSuite"> (show)</a> <!-- show-methods failed suite-FullUITestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-FullUITestSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.editortests.EditorTests" hash-for-method="defaultEditorValueTest">defaultEditorValueTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.alertstests.AlertsTests" hash-for-method="jsAlertTest">jsAlertTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-FullUITestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FullUITestSuite" class="hide-methods passed suite-FullUITestSuite"> (hide)</a> <!-- hide-methods passed suite-FullUITestSuite -->
+                      <a href="#" panel-name="suite-FullUITestSuite" class="show-methods passed suite-FullUITestSuite"> (show)</a> <!-- show-methods passed suite-FullUITestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-FullUITestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.draganddroptests.DragAndDropTests" hash-for-method="dragAToBTest">dragAToBTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.draganddroptests.DragAndDropTests" hash-for-method="dragAToBTest">dragAToBTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.uploadtests.UploadTests" hash-for-method="fileUploadTest(1, index.html)">fileUploadTest(1, index.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.uploadtests.UploadTests" hash-for-method="fileUploadTest(3, text.txt)">fileUploadTest(3, text.txt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.uploadtests.UploadTests" hash-for-method="fileUploadTest(2, logo.png)">fileUploadTest(2, logo.png)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.alertstests.AlertsTests" hash-for-method="jsDismissTest">jsDismissTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.alertstests.AlertsTests" hash-for-method="jsPromptTest">jsPromptTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.loginpagetests.PositiveLogInTests" hash-for-method="logInTest">logInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests" hash-for-method="negativeLogInTest({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is i...)">negativeLogInTest({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests" hash-for-method="negativeLogInTest({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username ...)">negativeLogInTest({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests" hash-for-method="negativeLogInTest({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=to...)">negativeLogInTest({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=to...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests" hash-for-method="negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is ...)">negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests" hash-for-method="negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your...)">negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests" hash-for-method="negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your...)">negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests" hash-for-method="negativeLogInTest({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username ...)">negativeLogInTest({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests" hash-for-method="negativeLogInTest({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=to...)">negativeLogInTest({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=to...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests" hash-for-method="negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is ...)">negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests" hash-for-method="negativeLogInTest({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is i...)">negativeLogInTest({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.windowstests.WindowsTests" hash-for-method="newWindowTest">newWindowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.dropdowntests.DropdownTest" hash-for-method="optionTwoTest">optionTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.keypressestests.KeyPressesTests" hash-for-method="pressKeyTest">pressKeyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.keypressestests.KeyPressesTests" hash-for-method="pressKeyWithActionsTest">pressKeyWithActionsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FullUITestSuite" title="com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests" hash-for-method="selectingTwoCheckboxesTest">selectingTwoCheckboxesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FullUITestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FullUITestSuite" class="panel FullUITestSuite">
+          <div class="suite-FullUITestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.alertstests.AlertsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="jsAlertTest">
+                  </a> <!-- jsAlertTest -->
+                  <span class="method-name">jsAlertTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: result is not expected. 
+Should be &apos;You successfuly clicked an alert&apos;, but it is &apos;You successfully clicked an alert&apos; expected [true] but found [false]
+	at com.herokuapp.theinternet.alertstests.AlertsTests.jsAlertTest(AlertsTests.java:43)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-failed -->
+          <div class="suite-FullUITestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.editortests.EditorTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="defaultEditorValueTest">
+                  </a> <!-- defaultEditorValueTest -->
+                  <span class="method-name">defaultEditorValueTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Editor default text is not expected. It is:  expected [true] but found [false]
+	at com.herokuapp.theinternet.editortests.EditorTests.defaultEditorValueTest(EditorTests.java:33)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-failed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectingTwoCheckboxesTest">
+                  </a> <!-- selectingTwoCheckboxesTest -->
+                  <span class="method-name">selectingTwoCheckboxesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is i...)">
+                  </a> <!-- negativeLogInTest({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is i...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is invalid!, username=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username ...)">
+                  </a> <!-- negativeLogInTest({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username ...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username is invalid!, username=incorrectUsername})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=to...)">
+                  </a> <!-- negativeLogInTest({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=to...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=tomsmith})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is ...)">
+                  </a> <!-- negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is ...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is invalid!, username=tomsmith})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your...)">
+                  </a> <!-- negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your username is invalid!, username=incorrectUsername})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your...)">
+                  </a> <!-- negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your username is invalid!, username=incorrectUsername})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username ...)">
+                  </a> <!-- negativeLogInTest({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username ...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username is invalid!, username=incorrectUsername})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=to...)">
+                  </a> <!-- negativeLogInTest({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=to...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=tomsmith})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is ...)">
+                  </a> <!-- negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is ...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is invalid!, username=tomsmith})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is i...)">
+                  </a> <!-- negativeLogInTest({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is i...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is invalid!, username=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.draganddroptests.DragAndDropTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAToBTest">
+                  </a> <!-- dragAToBTest -->
+                  <span class="method-name">dragAToBTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAToBTest">
+                  </a> <!-- dragAToBTest -->
+                  <span class="method-name">dragAToBTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.loginpagetests.PositiveLogInTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInTest">
+                  </a> <!-- logInTest -->
+                  <span class="method-name">logInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.alertstests.AlertsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="jsDismissTest">
+                  </a> <!-- jsDismissTest -->
+                  <span class="method-name">jsDismissTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jsPromptTest">
+                  </a> <!-- jsPromptTest -->
+                  <span class="method-name">jsPromptTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.windowstests.WindowsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newWindowTest">
+                  </a> <!-- newWindowTest -->
+                  <span class="method-name">newWindowTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.dropdowntests.DropdownTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="optionTwoTest">
+                  </a> <!-- optionTwoTest -->
+                  <span class="method-name">optionTwoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.keypressestests.KeyPressesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pressKeyTest">
+                  </a> <!-- pressKeyTest -->
+                  <span class="method-name">pressKeyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pressKeyWithActionsTest">
+                  </a> <!-- pressKeyWithActionsTest -->
+                  <span class="method-name">pressKeyWithActionsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.uploadtests.UploadTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileUploadTest(1, index.html)">
+                  </a> <!-- fileUploadTest(1, index.html) -->
+                  <span class="method-name">fileUploadTest</span>
+                  <span class="parameters">(1, index.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileUploadTest(3, text.txt)">
+                  </a> <!-- fileUploadTest(3, text.txt) -->
+                  <span class="method-name">fileUploadTest</span>
+                  <span class="parameters">(3, text.txt)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileUploadTest(2, logo.png)">
+                  </a> <!-- fileUploadTest(2, logo.png) -->
+                  <span class="method-name">fileUploadTest</span>
+                  <span class="parameters">(2, logo.png)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+        </div> <!-- panel FullUITestSuite -->
+        <div panel-name="test-xml-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\dhery\IdeaProjects\advanced-selenium-webdriver\PART 6\selenium-advanced\src\test\resources\TestSuites\FullUITestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;FullUITestSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;PositiveLogInTest-CH&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.loginpagetests.PositiveLogInTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PositiveLogInTest-CH --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;NegativeUsernameTest-CH&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;SuperSecretPassword!&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;expectedMessage&quot; value=&quot;Your username is invalid!&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;incorrectUsername&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.loginpagetests.NegativeLogInTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NegativeUsernameTest-CH --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;NegativePasswordTest-FF&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;incorrectPassword&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;expectedMessage&quot; value=&quot;Your password is invalid!&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;tomsmith&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.loginpagetests.NegativeLogInTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NegativePasswordTest-FF --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;CheckboxesTests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CheckboxesTests --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;DropdownTests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.dropdowntests.DropdownTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DropdownTests --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;AlertsTests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.alertstests.AlertsTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AlertsTests --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;WindowsTests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.windowstests.WindowsTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WindowsTests --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;EditorTests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.editortests.EditorTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EditorTests --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;KeyPressesTests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.keypressestests.KeyPressesTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- KeyPressesTests --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;UploadTests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.uploadtests.UploadTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UploadTests --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;DragAndDropTests-CH&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.draganddroptests.DragAndDropTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DragAndDropTests-CH --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;DragAndDropTests-FF&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.draganddroptests.DragAndDropTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DragAndDropTests-FF --&gt;
+&lt;/suite&gt; &lt;!-- FullUITestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PositiveLogInTest-CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NegativeUsernameTest-CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NegativePasswordTest-FF (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CheckboxesTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DropdownTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AlertsTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WindowsTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EditorTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">KeyPressesTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UploadTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DragAndDropTests-CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DragAndDropTests-FF (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FullUITestSuite');
+function tableData_FullUITestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'defaultEditorValueTest')
+data.setCell(0, 2, 'com.herokuapp.theinternet.editortests.EditorTests')
+data.setCell(0, 3, 14857);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'negativeLogInTest')
+data.setCell(1, 2, 'com.herokuapp.theinternet.loginpagetests.NegativeLogInTests')
+data.setCell(1, 3, 5817);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectingTwoCheckboxesTest')
+data.setCell(2, 2, 'com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests')
+data.setCell(2, 3, 5138);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'jsPromptTest')
+data.setCell(3, 2, 'com.herokuapp.theinternet.alertstests.AlertsTests')
+data.setCell(3, 3, 5129);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'logInTest')
+data.setCell(4, 2, 'com.herokuapp.theinternet.loginpagetests.PositiveLogInTests')
+data.setCell(4, 3, 4572);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'jsAlertTest')
+data.setCell(5, 2, 'com.herokuapp.theinternet.alertstests.AlertsTests')
+data.setCell(5, 3, 4536);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'jsDismissTest')
+data.setCell(6, 2, 'com.herokuapp.theinternet.alertstests.AlertsTests')
+data.setCell(6, 3, 4508);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'fileUploadTest')
+data.setCell(7, 2, 'com.herokuapp.theinternet.uploadtests.UploadTests')
+data.setCell(7, 3, 4346);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'negativeLogInTest')
+data.setCell(8, 2, 'com.herokuapp.theinternet.loginpagetests.NegativeLogInTests')
+data.setCell(8, 3, 4121);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'dragAToBTest')
+data.setCell(9, 2, 'com.herokuapp.theinternet.draganddroptests.DragAndDropTests')
+data.setCell(9, 3, 3921);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'negativeLogInTest')
+data.setCell(10, 2, 'com.herokuapp.theinternet.loginpagetests.NegativeLogInTests')
+data.setCell(10, 3, 3579);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'negativeLogInTest')
+data.setCell(11, 2, 'com.herokuapp.theinternet.loginpagetests.NegativeLogInTests')
+data.setCell(11, 3, 3577);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'negativeLogInTest')
+data.setCell(12, 2, 'com.herokuapp.theinternet.loginpagetests.NegativeLogInTests')
+data.setCell(12, 3, 3529);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'negativeLogInTest')
+data.setCell(13, 2, 'com.herokuapp.theinternet.loginpagetests.NegativeLogInTests')
+data.setCell(13, 3, 3478);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'negativeLogInTest')
+data.setCell(14, 2, 'com.herokuapp.theinternet.loginpagetests.NegativeLogInTests')
+data.setCell(14, 3, 3434);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'newWindowTest')
+data.setCell(15, 2, 'com.herokuapp.theinternet.windowstests.WindowsTests')
+data.setCell(15, 3, 3340);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'pressKeyTest')
+data.setCell(16, 2, 'com.herokuapp.theinternet.keypressestests.KeyPressesTests')
+data.setCell(16, 3, 3202);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'negativeLogInTest')
+data.setCell(17, 2, 'com.herokuapp.theinternet.loginpagetests.NegativeLogInTests')
+data.setCell(17, 3, 3165);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'negativeLogInTest')
+data.setCell(18, 2, 'com.herokuapp.theinternet.loginpagetests.NegativeLogInTests')
+data.setCell(18, 3, 3043);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'negativeLogInTest')
+data.setCell(19, 2, 'com.herokuapp.theinternet.loginpagetests.NegativeLogInTests')
+data.setCell(19, 3, 2807);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'fileUploadTest')
+data.setCell(20, 2, 'com.herokuapp.theinternet.uploadtests.UploadTests')
+data.setCell(20, 3, 2274);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'optionTwoTest')
+data.setCell(21, 2, 'com.herokuapp.theinternet.dropdowntests.DropdownTest')
+data.setCell(21, 3, 2140);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'fileUploadTest')
+data.setCell(22, 2, 'com.herokuapp.theinternet.uploadtests.UploadTests')
+data.setCell(22, 3, 2059);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'dragAToBTest')
+data.setCell(23, 2, 'com.herokuapp.theinternet.draganddroptests.DragAndDropTests')
+data.setCell(23, 3, 1754);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'pressKeyWithActionsTest')
+data.setCell(24, 2, 'com.herokuapp.theinternet.keypressestests.KeyPressesTests')
+data.setCell(24, 3, 1674);
+window.suiteTableData['FullUITestSuite']= { tableData: data, tableDiv: 'times-div-FullUITestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-FullUITestSuite">
+              </div> <!-- times-div-FullUITestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.PositiveLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.loginpagetests.PositiveLogInTests.logInTest(), chrome, org.tes...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util....)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util....)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests.selectingTwoCheckboxesTest...)</span>
+                <span class="method-start">132 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.PositiveLogInTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logInTest</span>
+                <span class="method-start">5185 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectingTwoCheckboxesTest</span>
+                <span class="method-start">5255 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username ...)</span>
+                <span class="method-start">5255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=1, description=incorrect username, password=SuperSecretPassword!, expectedMessage=Your username ...)</span>
+                <span class="method-start">6534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util....)</span>
+                <span class="method-start">9595 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.PositiveLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9757 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10393 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.dropdowntests.DropdownTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.dropdowntests.DropdownTest.optionTwoTest(), chrome, org.testng...)</span>
+                <span class="method-start">10490 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10656 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.alertstests.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.alertstests.AlertsTests.jsAlertTest(), chrome, org.testng.Test...)</span>
+                <span class="method-start">11414 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util....)</span>
+                <span class="method-start">11599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is ...)</span>
+                <span class="method-start">13956 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.dropdowntests.DropdownTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">optionTwoTest</span>
+                <span class="method-start">14798 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.alertstests.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">jsAlertTest</span>
+                <span class="method-start">15709 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.dropdowntests.DropdownTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16938 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=Your password is ...)</span>
+                <span class="method-start">17489 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.windowstests.WindowsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.windowstests.WindowsTests.newWindowTest(), chrome, org.testng....)</span>
+                <span class="method-start">17629 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util....)</span>
+                <span class="method-start">17700 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.alertstests.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.alertstests.AlertsTests.jsDismissTest(), chrome, org.testng.Te...)</span>
+                <span class="method-start">20962 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util....)</span>
+                <span class="method-start">21886 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.windowstests.WindowsTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">newWindowTest</span>
+                <span class="method-start">22134 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your...)</span>
+                <span class="method-start">22269 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.alertstests.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jsDismissTest</span>
+                <span class="method-start">25372 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25436 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.windowstests.WindowsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25476 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util....)</span>
+                <span class="method-start">26178 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.editortests.EditorTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.editortests.EditorTests.defaultEditorValueTest(), chrome, org....)</span>
+                <span class="method-start">26230 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=Your...)</span>
+                <span class="method-start">28193 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.alertstests.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.alertstests.AlertsTests.jsPromptTest(), chrome, org.testng.Tes...)</span>
+                <span class="method-start">30598 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is i...)</span>
+                <span class="method-start">30650 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.editortests.EditorTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">defaultEditorValueTest</span>
+                <span class="method-start">30836 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util....)</span>
+                <span class="method-start">32634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34084 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util....)</span>
+                <span class="method-start">34974 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.alertstests.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jsPromptTest</span>
+                <span class="method-start">35055 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=4, description=empty username, password=SuperSecretPassword!, expectedMessage=Your username is i...)</span>
+                <span class="method-start">38748 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=to...)</span>
+                <span class="method-start">39391 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.alertstests.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40184 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.keypressestests.KeyPressesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.keypressestests.KeyPressesTests.pressKeyTest(), chrome, org.te...)</span>
+                <span class="method-start">40893 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42198 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.uploadtests.UploadTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.uploadtests.UploadTests.fileUploadTest(int,java.lang.String), ...)</span>
+                <span class="method-start">42871 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44565 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.keypressestests.KeyPressesTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">pressKeyTest</span>
+                <span class="method-start">45246 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util....)</span>
+                <span class="method-start">45387 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.editortests.EditorTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45693 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.draganddroptests.DragAndDropTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.draganddroptests.DragAndDropTests.dragAToBTest(), chrome, org....)</span>
+                <span class="method-start">46402 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.uploadtests.UploadTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fileUploadTest(1, index.html)</span>
+                <span class="method-start">47176 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.keypressestests.KeyPressesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.keypressestests.KeyPressesTests.pressKeyWithActionsTest(), chr...)</span>
+                <span class="method-start">49164 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.uploadtests.UploadTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49450 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.uploadtests.UploadTests.fileUploadTest(int,java.lang.String), ...)</span>
+                <span class="method-start">50128 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.draganddroptests.DragAndDropTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dragAToBTest</span>
+                <span class="method-start">50985 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=5, description=empty password, password=, expectedMessage=Your password is invalid!, username=to...)</span>
+                <span class="method-start">52077 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.draganddroptests.DragAndDropTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52739 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.draganddroptests.DragAndDropTests.dragAToBTest(), firefox, org...)</span>
+                <span class="method-start">53416 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.keypressestests.KeyPressesTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">pressKeyWithActionsTest</span>
+                <span class="method-start">53462 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.uploadtests.UploadTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fileUploadTest(2, logo.png)</span>
+                <span class="method-start">54419 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.keypressestests.KeyPressesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55137 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55555 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.uploadtests.UploadTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58765 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.herokuapp.theinternet.uploadtests.UploadTests.fileUploadTest(int,java.lang.String), ...)</span>
+                <span class="method-start">59437 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.draganddroptests.DragAndDropTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dragAToBTest</span>
+                <span class="method-start">60091 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.uploadtests.UploadTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fileUploadTest(3, text.txt)</span>
+                <span class="method-start">63741 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.draganddroptests.DragAndDropTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64012 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.uploadtests.UploadTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65800 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

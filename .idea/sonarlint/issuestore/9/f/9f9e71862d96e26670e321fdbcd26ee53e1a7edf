@@ -1,0 +1,15 @@
+
+x
+java:S2629"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ğ¨¦ıÿÿÿÿ
+S
+java:S2629¶"7Use the built-in formatting to construct this argument.(ğ‘›úÿÿÿÿ
+>	java:S108V")Either remove or fill this block of code.(ÀŒÂã
+T
+java:S1858k">"next" returns a string, there's no need to call "toString()".(Õ¯¯¤
+]
+java:S3457"AFormat specifiers should be used instead of string concatenation.(ğ¨¦ıÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(®ÏÚƒ
+X
+java:S3457¯"AFormat specifiers should be used instead of string concatenation.(Í·²¬
+]
+java:S3457¶"AFormat specifiers should be used instead of string concatenation.(ğ‘›úÿÿÿÿ

@@ -1,0 +1,14 @@
+
+M
+java:S2629"7Use the built-in formatting to construct this argument.(ï¼˜
+R
+java:S2629""7Use the built-in formatting to construct this argument.(û†‡‚úÿÿÿÿ
+M
+java:S2629-"7Use the built-in formatting to construct this argument.(—ÈÒß
+W
+java:S3457"AFormat specifiers should be used instead of string concatenation.(ï¼˜
+\
+java:S3457""AFormat specifiers should be used instead of string concatenation.(û†‡‚úÿÿÿÿ
+Q	java:S125$"<This block of commented-out lines of code should be removed.(İÑû
+W
+java:S3457-"AFormat specifiers should be used instead of string concatenation.(—ÈÒß

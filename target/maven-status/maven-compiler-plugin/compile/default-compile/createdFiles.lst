@@ -1,0 +1,7 @@
+com\herokuapp\theinternet\pages\SecureAreaPage.class
+com\herokuapp\theinternet\base\BaseTest.class
+com\herokuapp\theinternet\pages\WelcomePageObject.class
+com\herokuapp\theinternet\base\BrowserDriverFactory.class
+com\herokuapp\theinternet\base\TestUtilities.class
+com\herokuapp\theinternet\pages\LoginPage.class
+com\herokuapp\theinternet\pages\BasePageObject.class
